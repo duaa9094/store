@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+    <header>
+
+
+    </header>
+
+    <main>
+
+        <form id="form">
+            <fieldset>
+                <legend>Add New Laptop</legend>
+
+                <label for="brand">Brand</label>
+
+                <select id="brand">
+                    <option value="acer">acer</option>
+                    <option value="dell">dell</option>
+                    <option value="lenovo">lenovo</option>
+                    <option value="mac">mac</option>
+                    <option value="hp">hp</option>
+                </select>
+                <br>
+
+                <label for="model">Model Name</label>
+                <input type="text" id="model" required="required">
+                <br>
+
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" required="required">
+                <br>
+
+                <label for="price">Price</label>
+                <input type="number" id="price" required="required" step="0.01">
+                <br>
+
+                <label for="">Color</label>
+
+                <input type="radio" name="color" id="gray" checked="true">
+                <label for="gray">Gray</label>
+
+                <input type="radio" name="color" id="black">
+                <label for="black">Black</label>
+
+                <input type="radio" name="color" id="white">
+                <label for="white">White</label>
+                <br>
+
+                <input type="submit" value="Submit">
+
+
+            </fieldset>
+
+
+
+        </form>
+
+
+<table id="table"></table>
+
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+
     <script src="js/app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,20 @@
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: inline-block;
+    width:100px;
+
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+
+tr,th,td{
+    padding: 10px;
+}
